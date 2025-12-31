@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Year Countdown 2026</title>
+    <link rel="stylesheet" href="/app.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Animated gradient background -->
+        <div class="background">
+            <div class="gradient-overlay"></div>
+            <div class="stars" id="stars"></div>
+        </div>
+
+        <!-- Main content -->
+        <div class="content">
+            <!-- Glassmorphism card -->
+            <div class="glass-card">
+                <div class="card-inner">
+                    <!-- Header -->
+                    <div class="header">
+                        <div class="sparkles">
+                            <svg class="sparkle sparkle-left" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2">
+                                <path d="M12 3v18m9-9H3m15.364 6.364L5.636 5.636m12.728 0L5.636 18.364" />
+                            </svg>
+                            <svg class="sparkle sparkle-center" width="32" height="32" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2">
+                                <path d="M12 3v18m9-9H3m15.364 6.364L5.636 5.636m12.728 0L5.636 18.364" />
+                            </svg>
+                            <svg class="sparkle sparkle-right" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2">
+                                <path d="M12 3v18m9-9H3m15.364 6.364L5.636 5.636m12.728 0L5.636 18.364" />
+                            </svg>
+                        </div>
+
+                        <h1 class="title">New Year 2026</h1>
+                    </div>
+
+                    <!-- Countdown Timer -->
+                    <div class="countdown-grid" id="countdown">
+                        <div class="time-unit">
+                            <div class="time-box">
+                                <div class="time-value" id="days">00</div>
+                                <div class="time-glow"></div>
+                            </div>
+                            <p class="time-label">Days</p>
+                        </div>
+                        <div class="time-unit">
+                            <div class="time-box">
+                                <div class="time-value" id="hours">00</div>
+                                <div class="time-glow"></div>
+                            </div>
+                            <p class="time-label">Hours</p>
+                        </div>
+                        <div class="time-unit">
+                            <div class="time-box">
+                                <div class="time-value" id="minutes">00</div>
+                                <div class="time-glow"></div>
+                            </div>
+                            <p class="time-label">Minutes</p>
+                        </div>
+                        <div class="time-unit">
+                            <div class="time-box">
+                                <div class="time-value" id="seconds">00</div>
+                                <div class="time-glow"></div>
+                            </div>
+                            <p class="time-label">Seconds</p>
+                        </div>
+                    </div>
+
+                    <!-- Footer message -->
+                    <div class="footer">
+                        <p class="footer-text" id="footerText">Every second counts, make them memorable</p>
+                    </div>
+                </div>
+
+                <!-- Card glow effect -->
+                <div class="card-glow"></div>
+            </div>
+        </div>
+
+        <!-- Fireworks canvas -->
+        <canvas id="fireworks" class="fireworks-canvas"></canvas>
+    </div>
+
+    <script src="/app.js"></script>
+</body>
+
+</html>
