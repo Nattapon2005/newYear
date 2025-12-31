@@ -169,12 +169,12 @@ function startFireworks() {
         requestAnimationFrame(animate);
     }
 
-    // สร้างพลุทุก 1.2 วินาที
+    // สร้างพลุทุก 0.40 วินาที
     const fireworkInterval = setInterval(() => {
-        if (fireworks.length < 12) {
+        if (fireworks.length < 10) {
             fireworks.push(new Firework());
         }
-    }, 300);
+    }, 400);
 
     // --- 5. หยุดทำงานพลุหลังจากเริ่มไปแล้ว 1 ชั่วโมง ---
     const ONE_HOUR = 60 * 60 * 1000;
