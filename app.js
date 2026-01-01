@@ -1,6 +1,6 @@
 
-// const targetDate = new Date(Date.now() + 6 * 1000).getTime();
-const targetDate = new Date('January 1, 2026 00:00:00').getTime();
+const targetDate = new Date(Date.now() + 20 * 1000).getTime();
+// const targetDate = new Date('January 1, 2026 00:00:00').getTime();
 
 
 let previousValues = { days: -1, hours: -1, minutes: -1, seconds: -1 };
